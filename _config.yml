@@ -1,13 +1,13 @@
 # The Site Configuration
 
 # Import the theme
-remote_theme: cotes2020/jekyll-theme-chirpy
+theme: jekyll-theme-chirpy
 
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-sitemap
+#plugins:
+ # - jekyll-remote-theme
+  #- jekyll-seo-tag
+  #- jekyll-feed
+  #- jekyll-sitemap
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -23,10 +23,10 @@ timezone: Europe/London
 title: Harii Lord # the main title
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
-  enabled: true
-  src: /assets/img/logo.png
-  alt: "Harii Lord Logo"
+avatar: /assets/img/logo.png
+#  enabled: true
+#  src: /assets/img/logo.png
+#  alt: "Harii Lord Logo"
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
 social_preview_image: # string, local or CORS resources
